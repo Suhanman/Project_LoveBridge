@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.care.boot.member.IMemberMapper">
+
+    <!-- resultMap 수정: address 제거, gender와 image_url 추가 -->
+    <resultMap type="com.care.boot.member.MemberDTO" id="dbQuiz">
+        <id column="id" property="id"/>
+        <result column="pw" property="pw"/>
+        <result column="username" property="userName"/>
+        <result column="mobile" property="mobile"/>
+        <result column="gender" property="gender"/>
+        <result column="image_url" property="imageUrl"/>
+    </resultMap>
+
+    <!-- INSERT 구문: 컬럼명 명시 + 테이블 구조에 맞게 수정 -->
+    <insert id="registProc">
+        INSERT INTO member (id, pw, username, mobile, gender, image_url)
+        VALUES (#{id}, #{pw}, #{userName}, #{mobile}, #{gender}, #{imageUrl})
+    </insert>
+
+    <!-- 로그인 쿼리 -->
+    <select id="login" resultMap="dbQuiz">
+        SELECT * FROM member WHERE id=#{id}
+    </select>
+
+    <!-- 회원 리스트 페이징 검색 -->
+    <select id="memberInfo" resultMap="dbQuiz">
+        <choose>
+            <when test="select == 'id'">
+                SELECT AAA.* 
+                FROM (SELECT ROWNUM() AS r, id, username, mobile, gender FROM member 
+                      WHERE id LIKE CONCAT('%', #{search}, '%')) AAA
+                WHERE AAA.r BETWEEN #{begin} AND #{end}
+            </when>
+            <when test="select == 'mobile'">
+                SELECT AAA.* 
+                FROM (SELECT ROWNUM() AS r, id, username, mobile, gender FROM member 
+                      WHERE mobile LIKE CONCAT('%', #{search}, '%')) AAA
+                WHERE AAA.r BETWEEN #{begin} AND #{end}
+            </when>
+            <otherwise>
+                SELECT AAA.* 
+                FROM (SELECT ROWNUM() AS r, id, username, mobile, gender FROM member) AAA
+                WHERE AAA.r BETWEEN #{begin} AND #{end}
+            </otherwise>
+        </choose>
+    </select>
+
+    <!-- 전체 수 조회 -->
+    <select id="totalCount">
+        <choose>
+            <when test="select == 'id'">
+                SELECT COUNT(id) FROM member WHERE id LIKE CONCAT('%',#{search},'%')
+            </when>
+            <when test="select == 'mobile'">
+                SELECT COUNT(id) FROM member WHERE mobile LIKE CONCAT('%',#{search},'%')
+            </when>
+            <otherwise>
+                SELECT COUNT(id) FROM member
+            </otherwise>
+        </choose>
+    </select>
+
+    <!-- 수정 -->
+    <update id="updateProc">
+        UPDATE member 
+        SET pw=#{pw}, mobile=#{mobile}, username=#{userName}, gender=#{gender}, image_url=#{imageUrl}
+        WHERE id=#{id}
+    </update>
+
+    <!-- 삭제 -->
+    <delete id="deleteProc">
+        DELETE FROM member WHERE id=#{id}
+    </delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
