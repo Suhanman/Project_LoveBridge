@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lovebridge-basic
+  labels:
+    app: lovebridge
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lovebridge
+  template:
+    metadata:
+      labels:
+        app: lovebridge
+    spec:
+      serviceAccountName: ecr-sa
+      containers:
+      - name: lovebridge
+        image: 680993828418.dkr.ecr.ap-northeast-2.amazonaws.com/project2-server-origin:v1.0.102
+        ports:
+        - containerPort: 8080
+        

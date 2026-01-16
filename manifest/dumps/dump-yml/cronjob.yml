@@ -1,0 +1,54 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: rds-dump-upload
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: dumper
+              image: 680993828418.dkr.ecr.ap-northeast-2.amazonaws.com/project2-server-origin:newworld
+              env:
+                - name: DB_HOST
+                  valueFrom:
+                    configMapKeyRef:
+                      name: dump-config
+                      key: DB_HOST
+                - name: DB_NAME
+                  valueFrom:
+                    configMapKeyRef:
+                      name: dump-config
+                      key: DB_NAME
+                - name: DB_USER
+                  valueFrom:
+                    secretKeyRef:
+                      name: dump-secret
+                      key: DB_USER
+                - name: DB_PASS
+                  valueFrom:
+                    secretKeyRef:
+                      name: dump-secret
+                      key: DB_PASS
+                - name: GCP_BUCKET_NAME
+                  valueFrom:
+                    configMapKeyRef:
+                      name: dump-config
+                      key: GCP_BUCKET_NAME
+                - name: GOOGLE_APPLICATION_CREDENTIALS
+                  value: /var/secrets/gcp/gcp-key.json
+              volumeMounts:
+                - name: gcp-creds
+                  mountPath: /var/secrets/gcp/gcp-key.json 
+                  subPath: gcp-key.json  # ✅ 파일 경로로 마운트
+                  readOnly: true
+
+          volumes:
+            - name: gcp-creds
+              secret:
+                secretName: gcp-sa
+          restartPolicy: OnFailure
+
+

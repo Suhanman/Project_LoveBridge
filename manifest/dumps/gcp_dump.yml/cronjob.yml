@@ -1,0 +1,45 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cloudsql-import-job
+spec:
+  schedule: "*/1 * * * *"  # 매 1분마다
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: importer
+              image: gcr.io/YOUR_PROJECT_ID/cloudsql-import:latest  # 위에서 만든 이미지
+              env:
+                - name: GOOGLE_APPLICATION_CREDENTIALS
+                  value: /secrets/gcp/key.json
+                - name: INSTANCE_NAME
+                  valueFrom:
+                    configMapKeyRef:
+                      name: import-config
+                      key: INSTANCE_NAME
+                - name: PROJECT_ID
+                  valueFrom:
+                    configMapKeyRef:
+                      name: import-config
+                      key: PROJECT_ID
+                - name: DB_NAME
+                  valueFrom:
+                    configMapKeyRef:
+                      name: import-config
+                      key: DB_NAME
+                - name: GCP_BUCKET_NAME
+                  valueFrom:
+                    configMapKeyRef:
+                      name: import-config
+                      key: GCP_BUCKET_NAME
+              volumeMounts:
+                - name: gcp-key
+                  mountPath: /secrets/gcp
+                  readOnly: true
+          restartPolicy: OnFailure
+          volumes:
+            - name: gcp-key
+              secret:
+                secretName: gcp-sa

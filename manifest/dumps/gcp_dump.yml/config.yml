@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: import-config
+data:
+  INSTANCE_NAME: my-cloudsql
+  PROJECT_ID: direct-tribute-463400-f2
+  DB_NAME: app_db
+  GCP_BUCKET_NAME: my-backup-bucket
