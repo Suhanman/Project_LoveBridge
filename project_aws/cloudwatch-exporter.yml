@@ -1,0 +1,20 @@
+aws:
+  region: ap-northeast-2
+
+service:
+  port: 9106
+
+config:
+  metrics:
+    - aws_namespace: AWS/EC2
+      aws_metric_name: CPUUtilization
+      dimensions: [InstanceId]
+      statistics: [Average]
+      period_seconds: 300
+      range_seconds: 600
+
+serviceAccount:
+  create: true
+  name: cloudwatch-exporter
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::YOUR_CLOUDWATCH_ROLE_ARN
