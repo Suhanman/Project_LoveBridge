@@ -1,0 +1,10 @@
+helm install external-dns bitnami/external-dns \
+  -n kube-system \
+  --set provider=aws \
+  --set aws.region=ap-northeast-2 \
+  --set aws.zoneType=public \
+  --set txtOwnerId=external-dns \
+  --set policy=upsert-only \
+  --set domainFilters={cyram.click} \
+  --set serviceAccount.create=false \
+  --set serviceAccount.name=external-dns

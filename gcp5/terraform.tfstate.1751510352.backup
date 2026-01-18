@@ -1,0 +1,2052 @@
+{
+  "version": 4,
+  "terraform_version": "1.11.4",
+  "serial": 477,
+  "lineage": "256c711b-08c4-f9ca-8050-3c68cf099337",
+  "outputs": {
+    "ca_certificate": {
+      "value": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMRENDQXBTZ0F3SUJBZ0lRQVhNQ0R2aFZQYlRrQWhyb2liL2lIREFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlRMk5XSXlNVEF6Wmkwd05EQTVMVFE1WVRndE9UQm1ZeTAyWlRreE1XRXhNVEkxTjJNdwpJQmNOTWpVd056QXlNak0xTURNeVdoZ1BNakExTlRBMk1qWXdNRFV3TXpKYU1DOHhMVEFyQmdOVkJBTVRKRFkxCllqSXhNRE5tTFRBME1Ea3RORGxoT0MwNU1HWmpMVFpsT1RFeFlURXhNalUzWXpDQ0FhSXdEUVlKS29aSWh2Y04KQVFFQkJRQURnZ0dQQURDQ0FZb0NnZ0dCQU9IK3JJOEJuYmI3bmY1bWw4VlpoZUtjT3gyZStaMVVKNHV4UlhZUApsMTZrWmNQTVlkcC82QTdzZzk0YUhRaExuWnQ1NE93b3l3WXVaTW50UERlZjlmQzd5L0l2dUhUelhDc2hHeFU3CkloOU4wTlllbzk2WDM2MUxBSmw2TXB4b212MGFVL0cyNUhybUFNYTUwMXBEV0Nrd2YrNDg5dkNFTldCa1o2L0gKMFJ5SXNZQTdtclp4Tm1OQ0ZoSDZYZWMvSGFjUC9PWG1DQTViSWtvT2JNVEFVcnNMbExPK0VXR3QvOEJGL2t5MAp1TkkwS0RieFJmOVZYaExmai9LR3lBZjRkY2pXWEt6c3MraWdVYWRTRnJFODcvWFhYc3Z3WFJiOGpLRVJjTTBMCkIrUEh2SHhMRUVpeDBrazRweDlUbVlnNlhTT1JTeG5HQWlSRHU1M2FPTXQxY3p1K3N0dVBvOWs3ZklwZjJGVmgKUHRTYlpUZlZQQzY4UGxBMUY1Sm10cElQc3p3dVYzSy9GdWt5OTZFcGh3cG5ZY09lMGVZbGVRWWV4KzduMnRzMgpNd0ZqQ29MZ3hnWlc5alJmVmQwbXVmakpTOTJDNm9IS2swSm94SkRNbWFEWHhhNFNydmdlWWlSRFZWTjNQZVQ3CmxqL3Z3SmNkd2VtRWtFYTRmZEhxdC9WRjJRSURBUUFCbzBJd1FEQU9CZ05WSFE4QkFmOEVCQU1DQWdRd0R3WUQKVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVKY0FHN3ZEZTdmM3Y5ZkFXOFpmOXZrTWFUNXN3RFFZSgpLb1pJaHZjTkFRRUxCUUFEZ2dHQkFEWXUwK2RFRTdmak1jNVFwSlVZN0lMTFFybi80MU05NHBUenJFV1RjaXdzCjNEZStrMzREK1FGeWZ2aDZIYkkxYWNDaVR0UkxsU21YZDQ3WVVFdklRS1d2bllqbDJIS3UwSkJ3MHRoQlI2MzMKb3AySitiM09Rc0N5djlXd0hiVGVjaUhFc0QvZUlZalNoWGtFQXRaSkt2SkJ4dW03cldEb2ZkUU5oaDJVVUM0Twp0OVlkNmRqdHBIbEtrckZQQStOeWxJVnlSdVJSb2VOWXhTU0ZvelVzN283bWx6SnAxaGJxZHB5eGZxSWNPVFhpCmZBdXhxMWRmSzJuTlYyaEdya2JZRGJGSDVWcXhpL01zSksrSS9ZQVlvWWlhbGtpcnRxUEcvVnJ0VnRCYUpoWEgKM1BoR1RvRXA0WE02c0ZROGc4R0doSWVPd016d1JheTZQaXhCWnorR3lJYVd1U1F3M2gwRzlzdVZsQS9wdHJBaAp4anF0Q24yNDZIWERNTytadFdBbnNZeHNSTVlZakdUMWs5MHJvRENEd1pUQ2pSL2pTdWdjQS90OWtHcWVXeGErCldFUkpldDRIcnpDNGVXNWRxNG1PSVRYTUkxUExnMC9naGcwVkdtTUovaVZ0UzZCQ05OS0dKdTN1TEtPbEFyTzYKMG03TjBUcHVQYi84SU1DSW5QNkh6Zz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K",
+      "type": "string"
+    },
+    "client_certificate": {
+      "value": "",
+      "type": "string",
+      "sensitive": true
+    },
+    "client_key": {
+      "value": "",
+      "type": "string",
+      "sensitive": true
+    },
+    "vm_external_ip": {
+      "value": "34.45.28.38",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "argocd",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"].gke",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "atomic": false,
+            "chart": "argo-cd",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "argocd",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": {
+              "app_version": "v2.9.3",
+              "chart": "argo-cd",
+              "first_deployed": 1751506264,
+              "last_deployed": 1751509537,
+              "name": "argocd",
+              "namespace": "argocd",
+              "notes": "\n\nIn order to access the server UI you have the following options:\n\n1. kubectl port-forward service/argocd-server -n argocd 8080:443\n\n    and then open the browser on http://localhost:8080 and accept the certificate\n\n2. enable ingress in the values file `server.ingress.enabled` and either\n      - Add the annotation for ssl passthrough: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-1-ssl-passthrough\n      - Set the `configs.params.\"server.insecure\"` in the values file and terminate SSL at your ingress: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-2-multiple-ingress-objects-and-hosts\n\n\nAfter reaching the UI the first time you can login with username: admin and the random password generated during the installation. You can find the password by running:\n\nkubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath=\"{.data.password}\" | base64 -d\n\n(You should delete the initial secret afterwards as suggested by the Getting Started Guide: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli)\n",
+              "revision": 3,
+              "values": "{\"configs\":{\"cm\":{\"repositories\":[{\"name\":\"gitlab-repo\",\"password\":\"glpat-Cxn78VAtqFzwtgvDQ3Fo\",\"type\":\"git\",\"url\":\"https://gitlab.com/sooj-group/dating-app.git\",\"username\":\"mks0301140\"}]},\"secret\":{\"argocdServerAdminPassword\":\"$2a$12$I4Bs8bMJxEZO1FlSPFfrRe1Suru/2fkLcQms5avKJ.3QwXwbylgr6\"}},\"redis\":{\"enabled\":true,\"password\":\"\"},\"redis-ha\":{\"enabled\":false},\"server\":{\"insecure\":true,\"service\":{\"type\":\"LoadBalancer\"}}}",
+              "version": "5.51.6"
+            },
+            "name": "argocd",
+            "namespace": "argocd",
+            "pass_credentials": false,
+            "postrender": null,
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://argoproj.github.io/argo-helm",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": null,
+            "set_list": null,
+            "set_sensitive": null,
+            "set_wo": null,
+            "set_wo_revision": null,
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 600,
+            "values": [
+              "\"configs\":\n  \"cm\":\n    \"repositories\":\n    - \"name\": \"gitlab-repo\"\n      \"password\": \"glpat-Cxn78VAtqFzwtgvDQ3Fo\"\n      \"type\": \"git\"\n      \"url\": \"https://gitlab.com/sooj-group/dating-app.git\"\n      \"username\": \"mks0301140\"\n  \"secret\":\n    \"argocdServerAdminPassword\": \"$2a$12$I4Bs8bMJxEZO1FlSPFfrRe1Suru/2fkLcQms5avKJ.3QwXwbylgr6\"\n\"redis\":\n  \"enabled\": true\n  \"password\": \"\"\n\"redis-ha\":\n  \"enabled\": false\n\"server\":\n  \"insecure\": true\n  \"service\":\n    \"type\": \"LoadBalancer\"\n"
+            ],
+            "verify": false,
+            "version": "5.51.6",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "values"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "argocd_app",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "argoproj.io/v1alpha1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/apis/argoproj.io/v1alpha1/namespaces/argocd/applications/dating-app",
+            "ignore_fields": null,
+            "kind": "Application",
+            "live_manifest_incluster": "6d93bd997fea4e87010b1b4be668059b503e470b3422bef52405712d4eb9c64b",
+            "live_uid": "d71dcdce-442a-4151-b453-654394d36863",
+            "name": "dating-app",
+            "namespace": "argocd",
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "d71dcdce-442a-4151-b453-654394d36863",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: argoproj.io/v1alpha1\r\nkind: Application\r\nmetadata:\r\n  name: dating-app\r\n  namespace: argocd\r\nspec:\r\n  project: default\r\n  source:\r\n    repoURL: https://gitlab.com/sooj-group/dating-app.git\r\n    targetRevision: main\r\n    path: k8s\r\n  destination:\r\n    server: https://kubernetes.default.svc\r\n    namespace: default\r\n  syncPolicy:\r\n    automated:\r\n      prune: true\r\n      selfHeal: true\r\n",
+            "yaml_body_parsed": "apiVersion: argoproj.io/v1alpha1\nkind: Application\nmetadata:\n  name: dating-app\n  namespace: argocd\nspec:\n  destination:\n    namespace: default\n    server: https://kubernetes.default.svc\n  project: default\n  source:\n    path: k8s\n    repoURL: https://gitlab.com/sooj-group/dating-app.git\n    targetRevision: main\n  syncPolicy:\n    automated:\n      prune: true\n      selfHeal: true\n",
+            "yaml_incluster": "6d93bd997fea4e87010b1b4be668059b503e470b3422bef52405712d4eb9c64b"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "helm_release.argocd",
+            "kubectl_manifest.gitlab_repo"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "dockerhub_secret",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/default/secrets/dockerhub-secret",
+            "ignore_fields": null,
+            "kind": "Secret",
+            "live_manifest_incluster": "a01dee1f2850f5eada96d3ebf55b16758e9217b72843b6810dfb1b9af7df76a8",
+            "live_uid": "72846727-eba3-4508-9c5e-b2fec27b52d9",
+            "name": "dockerhub-secret",
+            "namespace": "default",
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "72846727-eba3-4508-9c5e-b2fec27b52d9",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\r\nkind: Secret\r\nmetadata:\r\n  name: dockerhub-secret\r\n  namespace: default\r\ntype: kubernetes.io/dockerconfigjson\r\ndata:\r\n  .dockerconfigjson: \"eyJhdXRocyI6eyJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOnsiYXV0aCI6IlkyaHZhWGxsY21GdE9uSm9aSGR1T1RrMU15RT0iLCJwYXNzd29yZCI6InJoZHduOTk1MyEiLCJ1c2VybmFtZSI6ImNob2l5ZXJhbSJ9fX0=\"\r\n",
+            "yaml_body_parsed": "apiVersion: v1\ndata: (sensitive value)\nkind: Secret\nmetadata:\n  name: dockerhub-secret\n  namespace: default\ntype: kubernetes.io/dockerconfigjson\n",
+            "yaml_incluster": "a01dee1f2850f5eada96d3ebf55b16758e9217b72843b6810dfb1b9af7df76a8"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "gitlab_repo",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/argocd/secrets/gitlab-repo-secret",
+            "ignore_fields": null,
+            "kind": "Secret",
+            "live_manifest_incluster": "77b3338163939919869cadefbc34f514d7fb390dc839e17b1a53e226fa4c4d44",
+            "live_uid": "95d327ff-3068-4371-8ed3-9a538c3b7f5f",
+            "name": "gitlab-repo-secret",
+            "namespace": "argocd",
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "95d327ff-3068-4371-8ed3-9a538c3b7f5f",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\r\nkind: Secret\r\nmetadata:\r\n  name: gitlab-repo-secret\r\n  namespace: argocd\r\n  labels:\r\n    argocd.argoproj.io/secret-type: repository\r\nstringData:\r\n  type: git\r\n  url: https://gitlab.com/sooj-group/dating-app.git\r\n  username: mks0301140\r\n  password: glpat-Cxn78VAtqFzwtgvDQ3Fo\r\n",
+            "yaml_body_parsed": "apiVersion: v1\nkind: Secret\nmetadata:\n  labels:\n    argocd.argoproj.io/secret-type: repository\n  name: gitlab-repo-secret\n  namespace: argocd\nstringData:\n  password: glpat-Cxn78VAtqFzwtgvDQ3Fo\n  type: git\n  url: https://gitlab.com/sooj-group/dating-app.git\n  username: mks0301140\n",
+            "yaml_incluster": "77b3338163939919869cadefbc34f514d7fb390dc839e17b1a53e226fa4c4d44"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "helm_release.argocd"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_backup",
+      "mode": "managed",
+      "type": "google_storage_bucket",
+      "name": "db_backup_bucket",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 3,
+          "attributes": {
+            "autoclass": [],
+            "cors": [],
+            "custom_placement_config": [],
+            "default_event_based_hold": false,
+            "effective_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "enable_object_retention": false,
+            "encryption": [],
+            "force_destroy": true,
+            "hierarchical_namespace": [
+              {
+                "enabled": false
+              }
+            ],
+            "id": "lovebridge-db-backups",
+            "ip_filter": [],
+            "labels": {},
+            "lifecycle_rule": [
+              {
+                "action": [
+                  {
+                    "storage_class": "",
+                    "type": "Delete"
+                  }
+                ],
+                "condition": [
+                  {
+                    "age": 30,
+                    "created_before": "",
+                    "custom_time_before": "",
+                    "days_since_custom_time": 0,
+                    "days_since_noncurrent_time": 0,
+                    "matches_prefix": [],
+                    "matches_storage_class": [],
+                    "matches_suffix": [],
+                    "noncurrent_time_before": "",
+                    "num_newer_versions": 0,
+                    "send_age_if_zero": false,
+                    "send_days_since_custom_time_if_zero": false,
+                    "send_days_since_noncurrent_time_if_zero": false,
+                    "send_num_newer_versions_if_zero": false,
+                    "with_state": "ANY"
+                  }
+                ]
+              }
+            ],
+            "location": "US-CENTRAL1",
+            "logging": [],
+            "name": "lovebridge-db-backups",
+            "project": "direct-tribute-463400-f2",
+            "project_number": 245797118829,
+            "public_access_prevention": "inherited",
+            "requester_pays": false,
+            "retention_policy": [],
+            "rpo": null,
+            "self_link": "https://www.googleapis.com/storage/v1/b/lovebridge-db-backups",
+            "soft_delete_policy": [
+              {
+                "effective_time": "2025-07-03T00:49:51.217Z",
+                "retention_duration_seconds": 604800
+              }
+            ],
+            "storage_class": "STANDARD",
+            "terraform_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "time_created": "2025-07-03T00:49:51.217Z",
+            "timeouts": null,
+            "uniform_bucket_level_access": true,
+            "updated": "2025-07-03T00:49:51.217Z",
+            "url": "gs://lovebridge-db-backups",
+            "versioning": [
+              {
+                "enabled": false
+              }
+            ],
+            "website": []
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsInJlYWQiOjI0MDAwMDAwMDAwMCwidXBkYXRlIjoyNDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjMifQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.compute",
+      "mode": "managed",
+      "type": "google_compute_instance",
+      "name": "vm_instance",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 6,
+          "attributes": {
+            "advanced_machine_features": [],
+            "allow_stopping_for_update": true,
+            "attached_disk": [],
+            "boot_disk": [
+              {
+                "auto_delete": true,
+                "device_name": "persistent-disk-0",
+                "disk_encryption_key_raw": "",
+                "disk_encryption_key_rsa": "",
+                "disk_encryption_key_sha256": "",
+                "disk_encryption_service_account": "",
+                "force_attach": false,
+                "guest_os_features": [
+                  "UEFI_COMPATIBLE",
+                  "VIRTIO_SCSI_MULTIQUEUE",
+                  "GVNIC"
+                ],
+                "initialize_params": [
+                  {
+                    "architecture": "X86_64",
+                    "enable_confidential_compute": false,
+                    "image": "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/debian-11-bullseye-v20250610",
+                    "labels": {},
+                    "provisioned_iops": 0,
+                    "provisioned_throughput": 0,
+                    "resource_manager_tags": {},
+                    "resource_policies": [],
+                    "size": 10,
+                    "snapshot": "",
+                    "source_image_encryption_key": [],
+                    "source_snapshot_encryption_key": [],
+                    "storage_pool": "",
+                    "type": "pd-standard"
+                  }
+                ],
+                "interface": "",
+                "kms_key_self_link": "",
+                "mode": "READ_WRITE",
+                "source": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/disks/dr-spring-vm"
+              }
+            ],
+            "can_ip_forward": false,
+            "confidential_instance_config": [],
+            "cpu_platform": "AMD Rome",
+            "creation_timestamp": "2025-07-02T17:50:32.654-07:00",
+            "current_status": "RUNNING",
+            "deletion_protection": false,
+            "description": "",
+            "desired_status": null,
+            "effective_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "enable_display": false,
+            "guest_accelerator": [],
+            "hostname": "",
+            "id": "projects/direct-tribute-463400-f2/zones/us-central1-a/instances/dr-spring-vm",
+            "instance_encryption_key": [],
+            "instance_id": "5699103090083917111",
+            "key_revocation_action_type": "",
+            "label_fingerprint": "vezUS-42LLM=",
+            "labels": {},
+            "machine_type": "e2-standard-2",
+            "metadata": {
+              "startup-script": "#!/bin/bash\r\napt-get update\r\napt-get install -y docker.io\r\n\r\necho \"rhdwn9953!\" | docker login -u \"choiyeram\" --password-stdin\r\ndocker pull choiyeram/boot:latest\r\ndocker run -d -p 80:8080 choiyeram/boot:latest\r\n"
+            },
+            "metadata_fingerprint": "_JE_tTFQn80=",
+            "metadata_startup_script": null,
+            "min_cpu_platform": "",
+            "name": "dr-spring-vm",
+            "network_interface": [
+              {
+                "access_config": [
+                  {
+                    "nat_ip": "34.45.28.38",
+                    "network_tier": "PREMIUM",
+                    "public_ptr_domain_name": ""
+                  }
+                ],
+                "alias_ip_range": [],
+                "internal_ipv6_prefix_length": 0,
+                "ipv6_access_config": [],
+                "ipv6_access_type": "",
+                "ipv6_address": "",
+                "name": "nic0",
+                "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+                "network_attachment": "",
+                "network_ip": "10.0.0.2",
+                "nic_type": "",
+                "queue_count": 0,
+                "stack_type": "IPV4_ONLY",
+                "subnetwork": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-subnet",
+                "subnetwork_project": "direct-tribute-463400-f2"
+              }
+            ],
+            "network_performance_config": [],
+            "params": [],
+            "project": "direct-tribute-463400-f2",
+            "reservation_affinity": [],
+            "resource_policies": [],
+            "scheduling": [
+              {
+                "automatic_restart": true,
+                "availability_domain": 0,
+                "instance_termination_action": "",
+                "local_ssd_recovery_timeout": [],
+                "max_run_duration": [],
+                "min_node_cpus": 0,
+                "node_affinities": [],
+                "on_host_maintenance": "MIGRATE",
+                "on_instance_stop_action": [],
+                "preemptible": false,
+                "provisioning_model": "STANDARD",
+                "termination_time": ""
+              }
+            ],
+            "scratch_disk": [],
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/instances/dr-spring-vm",
+            "service_account": [],
+            "shielded_instance_config": [
+              {
+                "enable_integrity_monitoring": true,
+                "enable_secure_boot": false,
+                "enable_vtpm": true
+              }
+            ],
+            "tags": [
+              "allow-http",
+              "allow-ssh"
+            ],
+            "tags_fingerprint": "LfyOV3jN6cE=",
+            "terraform_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "timeouts": null,
+            "zone": "us-central1-a"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "boot_disk"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              },
+              {
+                "type": "get_attr",
+                "value": "disk_encryption_key_rsa"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "boot_disk"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              },
+              {
+                "type": "get_attr",
+                "value": "disk_encryption_key_raw"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiNiJ9",
+          "dependencies": [
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_subnetwork.subnet"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.db",
+      "mode": "managed",
+      "type": "google_sql_database",
+      "name": "main",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "charset": "utf8mb4",
+            "collation": "utf8mb4_general_ci",
+            "deletion_policy": "DELETE",
+            "id": "projects/direct-tribute-463400-f2/instances/lovebridge-instance/databases/lovebridge_main",
+            "instance": "lovebridge-instance",
+            "name": "lovebridge_main",
+            "project": "direct-tribute-463400-f2",
+            "self_link": "https://sqladmin.googleapis.com/sql/v1beta4/projects/direct-tribute-463400-f2/instances/lovebridge-instance/databases/lovebridge_main",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.db.google_sql_database_instance.instance",
+            "module.network.google_compute_firewall.allow-ssh",
+            "module.network.google_compute_firewall.allow_http",
+            "module.network.google_compute_global_address.private_ip_range",
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_route.allow_internet",
+            "module.network.google_compute_router.router",
+            "module.network.google_compute_router_nat.nat",
+            "module.network.google_compute_subnetwork.private_subnet_db",
+            "module.network.google_compute_subnetwork.private_subnet_kuber",
+            "module.network.google_compute_subnetwork.subnet",
+            "module.network.google_service_networking_connection.private_vpc_connection"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.db",
+      "mode": "managed",
+      "type": "google_sql_database_instance",
+      "name": "instance",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "available_maintenance_versions": [],
+            "clone": [],
+            "connection_name": "direct-tribute-463400-f2:us-central1:lovebridge-instance",
+            "database_version": "MYSQL_8_0",
+            "deletion_protection": false,
+            "dns_name": "",
+            "dns_names": [],
+            "encryption_key_name": null,
+            "first_ip_address": "10.185.0.2",
+            "id": "lovebridge-instance",
+            "instance_type": "CLOUD_SQL_INSTANCE",
+            "ip_address": [
+              {
+                "ip_address": "10.185.0.2",
+                "time_to_retire": "",
+                "type": "PRIVATE"
+              }
+            ],
+            "maintenance_version": "MYSQL_8_0_41.R20250304.00_05",
+            "master_instance_name": "",
+            "name": "lovebridge-instance",
+            "private_ip_address": "10.185.0.2",
+            "project": "direct-tribute-463400-f2",
+            "psc_service_attachment_link": "",
+            "public_ip_address": "",
+            "region": "us-central1",
+            "replica_configuration": [],
+            "replica_names": [],
+            "replication_cluster": [
+              {
+                "dr_replica": false,
+                "failover_dr_replica_name": ""
+              }
+            ],
+            "restore_backup_context": [],
+            "root_password": null,
+            "self_link": "https://sqladmin.googleapis.com/sql/v1beta4/projects/direct-tribute-463400-f2/instances/lovebridge-instance",
+            "server_ca_cert": [
+              {
+                "cert": "-----BEGIN CERTIFICATE-----\nMIIDfzCCAmegAwIBAgIBADANBgkqhkiG9w0BAQsFADB3MS0wKwYDVQQuEyRhZWJj\nOGMyMC1jZTZhLTRjY2ItOTE0MC1lNDQzOTA2ZjUyMTYxIzAhBgNVBAMTGkdvb2ds\nZSBDbG91ZCBTUUwgU2VydmVyIENBMRQwEgYDVQQKEwtHb29nbGUsIEluYzELMAkG\nA1UEBhMCVVMwHhcNMjUwNzAzMDA1MjM3WhcNMzUwNzAxMDA1MzM3WjB3MS0wKwYD\nVQQuEyRhZWJjOGMyMC1jZTZhLTRjY2ItOTE0MC1lNDQzOTA2ZjUyMTYxIzAhBgNV\nBAMTGkdvb2dsZSBDbG91ZCBTUUwgU2VydmVyIENBMRQwEgYDVQQKEwtHb29nbGUs\nIEluYzELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB\nAQC34wfQw5riqzhcJOoUxn8yKDsXvG70IB4unKn5iNkjJcgpN0EfVzUvTEpApsq7\neoWAk1RY/gDdZLX3CXckL6X8YXyXzPBP3ToUbL80VPom+xnrZAwekgXE7vOXGG7j\n1fpKf7HEAgswUAg+Y2si3fBge3aXVQKU/hVAwsMLCj8t1l3gzXLuIinR2kVpdEQQ\n3BwWWuZIA4T5G2qDwQ49x9DE0jZA5+LzX/TQHrSDn9Ib1VjIWIoqah/u1hIRKaFg\nLaE1x61Iv8ZWlKnR1y4K3v6Q4Rj4AWoC9RV+t2OMlyX2FBlZCnMS9wtxn5ilqCTG\nyPVX5XjT0294Ksk1ZZgtPaRVAgMBAAGjFjAUMBIGA1UdEwEB/wQIMAYBAf8CAQAw\nDQYJKoZIhvcNAQELBQADggEBAHNYRq3G3OH8WwzGuZpxWRpwtY85rsDxLwcetIC3\nf+GBgI4AFnc5yyIIBdRstZGNSjcrNYvHyIQD5c8peiDbRGnvlRweSALxDbJJmtA4\nzIFJEtbC6j8qHn16BrJB1idgxHlnlbjtlAuucZKz4hGWmD4QaqeD5bIP/rC+QrFF\nduq+cZ4WrX7Cpi1rbo+l025DVxJG4kwRi54cftPR2ixSNRqHDukDdbIgir1Foumj\nRaAGH5qwWsd+LQa3uVmE5hkwQ0jpz9cfMtny+hqy5mXvDXS963uNRZ9rQ27WfWCe\nLrSXU8MA8JIMWVilItRR4LSaC6sLFAgDerlkPTbgw/GiZjU=\n-----END CERTIFICATE-----",
+                "common_name": "C=US,O=Google\\, Inc,CN=Google Cloud SQL Server CA,dnQualifier=aebc8c20-ce6a-4ccb-9140-e443906f5216",
+                "create_time": "2025-07-03T00:52:37.752Z",
+                "expiration_time": "2035-07-01T00:53:37.752Z",
+                "sha1_fingerprint": "0c01b8e395d316770dcae28367674fab4dd432c0"
+              }
+            ],
+            "service_account_email_address": "p245797118829-rg95v2@gcp-sa-cloud-sql.iam.gserviceaccount.com",
+            "settings": [
+              {
+                "activation_policy": "ALWAYS",
+                "active_directory_config": [],
+                "advanced_machine_features": [],
+                "availability_type": "REGIONAL",
+                "backup_configuration": [
+                  {
+                    "backup_retention_settings": [
+                      {
+                        "retained_backups": 7,
+                        "retention_unit": "COUNT"
+                      }
+                    ],
+                    "binary_log_enabled": true,
+                    "enabled": true,
+                    "location": "",
+                    "point_in_time_recovery_enabled": false,
+                    "start_time": "04:00",
+                    "transaction_log_retention_days": 7
+                  }
+                ],
+                "collation": "",
+                "connection_pool_config": [],
+                "connector_enforcement": "NOT_REQUIRED",
+                "data_cache_config": [
+                  {
+                    "data_cache_enabled": false
+                  }
+                ],
+                "database_flags": [],
+                "deletion_protection_enabled": false,
+                "deny_maintenance_period": [],
+                "disk_autoresize": true,
+                "disk_autoresize_limit": 0,
+                "disk_size": 10,
+                "disk_type": "PD_SSD",
+                "edition": "ENTERPRISE",
+                "enable_dataplex_integration": false,
+                "enable_google_ml_integration": false,
+                "insights_config": [],
+                "ip_configuration": [
+                  {
+                    "allocated_ip_range": "",
+                    "authorized_networks": [],
+                    "custom_subject_alternative_names": [],
+                    "enable_private_path_for_google_cloud_services": false,
+                    "ipv4_enabled": false,
+                    "private_network": "projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+                    "psc_config": [],
+                    "server_ca_mode": "GOOGLE_MANAGED_INTERNAL_CA",
+                    "server_ca_pool": "",
+                    "ssl_mode": "ALLOW_UNENCRYPTED_AND_ENCRYPTED"
+                  }
+                ],
+                "location_preference": [
+                  {
+                    "follow_gae_application": "",
+                    "secondary_zone": "",
+                    "zone": "us-central1-c"
+                  }
+                ],
+                "maintenance_window": [],
+                "password_validation_policy": [],
+                "pricing_plan": "PER_USE",
+                "retain_backups_on_delete": false,
+                "sql_server_audit_config": [],
+                "tier": "db-g1-small",
+                "time_zone": "",
+                "user_labels": {},
+                "version": 4
+              }
+            ],
+            "timeouts": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "root_password"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "server_ca_cert"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInVwZGF0ZSI6NTQwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_firewall.allow-ssh",
+            "module.network.google_compute_firewall.allow_http",
+            "module.network.google_compute_global_address.private_ip_range",
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_route.allow_internet",
+            "module.network.google_compute_router.router",
+            "module.network.google_compute_router_nat.nat",
+            "module.network.google_compute_subnetwork.private_subnet_db",
+            "module.network.google_compute_subnetwork.private_subnet_kuber",
+            "module.network.google_compute_subnetwork.subnet",
+            "module.network.google_service_networking_connection.private_vpc_connection"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.db",
+      "mode": "managed",
+      "type": "google_sql_user",
+      "name": "user",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "deletion_policy": null,
+            "host": "",
+            "id": "admin//lovebridge-instance",
+            "instance": "lovebridge-instance",
+            "name": "admin",
+            "password": "1234",
+            "password_policy": [],
+            "password_wo": null,
+            "password_wo_version": null,
+            "project": "direct-tribute-463400-f2",
+            "sql_server_user_details": [],
+            "timeouts": null,
+            "type": ""
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "password"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwLCJ1cGRhdGUiOjYwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.db.google_sql_database_instance.instance",
+            "module.network.google_compute_firewall.allow-ssh",
+            "module.network.google_compute_firewall.allow_http",
+            "module.network.google_compute_global_address.private_ip_range",
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_route.allow_internet",
+            "module.network.google_compute_router.router",
+            "module.network.google_compute_router_nat.nat",
+            "module.network.google_compute_subnetwork.private_subnet_db",
+            "module.network.google_compute_subnetwork.private_subnet_kuber",
+            "module.network.google_compute_subnetwork.subnet",
+            "module.network.google_service_networking_connection.private_vpc_connection"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.gke",
+      "mode": "managed",
+      "type": "google_container_cluster",
+      "name": "lovebridge_cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "addons_config": [
+              {
+                "cloudrun_config": [],
+                "config_connector_config": [],
+                "dns_cache_config": [],
+                "gce_persistent_disk_csi_driver_config": [
+                  {
+                    "enabled": true
+                  }
+                ],
+                "gcp_filestore_csi_driver_config": [],
+                "gcs_fuse_csi_driver_config": [],
+                "gke_backup_agent_config": [],
+                "horizontal_pod_autoscaling": [],
+                "http_load_balancing": [],
+                "network_policy_config": [
+                  {
+                    "disabled": true
+                  }
+                ],
+                "parallelstore_csi_driver_config": [],
+                "ray_operator_config": [],
+                "stateful_ha_config": []
+              }
+            ],
+            "allow_net_admin": null,
+            "authenticator_groups_config": [],
+            "binary_authorization": [
+              {
+                "enabled": false,
+                "evaluation_mode": ""
+              }
+            ],
+            "cluster_autoscaling": [
+              {
+                "auto_provisioning_defaults": [],
+                "auto_provisioning_locations": [],
+                "autoscaling_profile": "BALANCED",
+                "enabled": false,
+                "resource_limits": []
+              }
+            ],
+            "cluster_ipv4_cidr": "10.84.0.0/14",
+            "confidential_nodes": [],
+            "control_plane_endpoints_config": [
+              {
+                "dns_endpoint_config": [
+                  {
+                    "allow_external_traffic": false,
+                    "endpoint": "gke-254e2d1e7dc144c480348d2d758460cddc30-245797118829.us-central1.gke.goog"
+                  }
+                ],
+                "ip_endpoints_config": [
+                  {
+                    "enabled": true
+                  }
+                ]
+              }
+            ],
+            "cost_management_config": [],
+            "database_encryption": [
+              {
+                "key_name": "",
+                "state": "DECRYPTED"
+              }
+            ],
+            "datapath_provider": "",
+            "default_max_pods_per_node": 110,
+            "default_snat_status": [
+              {
+                "disabled": false
+              }
+            ],
+            "deletion_protection": false,
+            "description": "",
+            "disable_l4_lb_firewall_reconciliation": false,
+            "dns_config": [],
+            "effective_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "enable_autopilot": false,
+            "enable_cilium_clusterwide_network_policy": false,
+            "enable_fqdn_network_policy": false,
+            "enable_intranode_visibility": false,
+            "enable_k8s_beta_apis": [],
+            "enable_kubernetes_alpha": false,
+            "enable_l4_ilb_subsetting": false,
+            "enable_legacy_abac": false,
+            "enable_multi_networking": false,
+            "enable_shielded_nodes": true,
+            "enable_tpu": false,
+            "endpoint": "34.123.68.50",
+            "enterprise_config": [
+              {
+                "cluster_tier": "STANDARD",
+                "desired_tier": ""
+              }
+            ],
+            "fleet": [],
+            "gateway_api_config": [],
+            "id": "projects/direct-tribute-463400-f2/locations/us-central1/clusters/lovebridge-dr-cluster",
+            "identity_service_config": [],
+            "in_transit_encryption_config": "",
+            "initial_node_count": 1,
+            "ip_allocation_policy": [
+              {
+                "additional_pod_ranges_config": [],
+                "cluster_ipv4_cidr_block": "10.84.0.0/14",
+                "cluster_secondary_range_name": "gke-lovebridge-dr-cluster-pods-254e2d1e",
+                "pod_cidr_overprovision_config": [
+                  {
+                    "disabled": false
+                  }
+                ],
+                "services_ipv4_cidr_block": "34.118.224.0/20",
+                "services_secondary_range_name": "",
+                "stack_type": "IPV4"
+              }
+            ],
+            "label_fingerprint": "78cdf2f6",
+            "location": "us-central1",
+            "logging_config": [
+              {
+                "enable_components": [
+                  "SYSTEM_COMPONENTS",
+                  "WORKLOADS"
+                ]
+              }
+            ],
+            "logging_service": "logging.googleapis.com/kubernetes",
+            "maintenance_policy": [],
+            "master_auth": [
+              {
+                "client_certificate": "",
+                "client_certificate_config": [
+                  {
+                    "issue_client_certificate": false
+                  }
+                ],
+                "client_key": "",
+                "cluster_ca_certificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMRENDQXBTZ0F3SUJBZ0lRQVhNQ0R2aFZQYlRrQWhyb2liL2lIREFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlRMk5XSXlNVEF6Wmkwd05EQTVMVFE1WVRndE9UQm1ZeTAyWlRreE1XRXhNVEkxTjJNdwpJQmNOTWpVd056QXlNak0xTURNeVdoZ1BNakExTlRBMk1qWXdNRFV3TXpKYU1DOHhMVEFyQmdOVkJBTVRKRFkxCllqSXhNRE5tTFRBME1Ea3RORGxoT0MwNU1HWmpMVFpsT1RFeFlURXhNalUzWXpDQ0FhSXdEUVlKS29aSWh2Y04KQVFFQkJRQURnZ0dQQURDQ0FZb0NnZ0dCQU9IK3JJOEJuYmI3bmY1bWw4VlpoZUtjT3gyZStaMVVKNHV4UlhZUApsMTZrWmNQTVlkcC82QTdzZzk0YUhRaExuWnQ1NE93b3l3WXVaTW50UERlZjlmQzd5L0l2dUhUelhDc2hHeFU3CkloOU4wTlllbzk2WDM2MUxBSmw2TXB4b212MGFVL0cyNUhybUFNYTUwMXBEV0Nrd2YrNDg5dkNFTldCa1o2L0gKMFJ5SXNZQTdtclp4Tm1OQ0ZoSDZYZWMvSGFjUC9PWG1DQTViSWtvT2JNVEFVcnNMbExPK0VXR3QvOEJGL2t5MAp1TkkwS0RieFJmOVZYaExmai9LR3lBZjRkY2pXWEt6c3MraWdVYWRTRnJFODcvWFhYc3Z3WFJiOGpLRVJjTTBMCkIrUEh2SHhMRUVpeDBrazRweDlUbVlnNlhTT1JTeG5HQWlSRHU1M2FPTXQxY3p1K3N0dVBvOWs3ZklwZjJGVmgKUHRTYlpUZlZQQzY4UGxBMUY1Sm10cElQc3p3dVYzSy9GdWt5OTZFcGh3cG5ZY09lMGVZbGVRWWV4KzduMnRzMgpNd0ZqQ29MZ3hnWlc5alJmVmQwbXVmakpTOTJDNm9IS2swSm94SkRNbWFEWHhhNFNydmdlWWlSRFZWTjNQZVQ3CmxqL3Z3SmNkd2VtRWtFYTRmZEhxdC9WRjJRSURBUUFCbzBJd1FEQU9CZ05WSFE4QkFmOEVCQU1DQWdRd0R3WUQKVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVKY0FHN3ZEZTdmM3Y5ZkFXOFpmOXZrTWFUNXN3RFFZSgpLb1pJaHZjTkFRRUxCUUFEZ2dHQkFEWXUwK2RFRTdmak1jNVFwSlVZN0lMTFFybi80MU05NHBUenJFV1RjaXdzCjNEZStrMzREK1FGeWZ2aDZIYkkxYWNDaVR0UkxsU21YZDQ3WVVFdklRS1d2bllqbDJIS3UwSkJ3MHRoQlI2MzMKb3AySitiM09Rc0N5djlXd0hiVGVjaUhFc0QvZUlZalNoWGtFQXRaSkt2SkJ4dW03cldEb2ZkUU5oaDJVVUM0Twp0OVlkNmRqdHBIbEtrckZQQStOeWxJVnlSdVJSb2VOWXhTU0ZvelVzN283bWx6SnAxaGJxZHB5eGZxSWNPVFhpCmZBdXhxMWRmSzJuTlYyaEdya2JZRGJGSDVWcXhpL01zSksrSS9ZQVlvWWlhbGtpcnRxUEcvVnJ0VnRCYUpoWEgKM1BoR1RvRXA0WE02c0ZROGc4R0doSWVPd016d1JheTZQaXhCWnorR3lJYVd1U1F3M2gwRzlzdVZsQS9wdHJBaAp4anF0Q24yNDZIWERNTytadFdBbnNZeHNSTVlZakdUMWs5MHJvRENEd1pUQ2pSL2pTdWdjQS90OWtHcWVXeGErCldFUkpldDRIcnpDNGVXNWRxNG1PSVRYTUkxUExnMC9naGcwVkdtTUovaVZ0UzZCQ05OS0dKdTN1TEtPbEFyTzYKMG03TjBUcHVQYi84SU1DSW5QNkh6Zz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+              }
+            ],
+            "master_authorized_networks_config": [],
+            "master_version": "1.32.4-gke.1415000",
+            "mesh_certificates": [],
+            "min_master_version": null,
+            "monitoring_config": [
+              {
+                "advanced_datapath_observability_config": [
+                  {
+                    "enable_metrics": false,
+                    "enable_relay": false
+                  }
+                ],
+                "enable_components": [
+                  "SYSTEM_COMPONENTS",
+                  "STATEFULSET",
+                  "JOBSET",
+                  "STORAGE",
+                  "HPA",
+                  "POD",
+                  "DAEMONSET",
+                  "DEPLOYMENT",
+                  "CADVISOR",
+                  "KUBELET",
+                  "DCGM"
+                ],
+                "managed_prometheus": [
+                  {
+                    "auto_monitoring_config": [],
+                    "enabled": true
+                  }
+                ]
+              }
+            ],
+            "monitoring_service": "monitoring.googleapis.com/kubernetes",
+            "name": "lovebridge-dr-cluster",
+            "network": "projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "network_performance_config": [],
+            "network_policy": [
+              {
+                "enabled": false,
+                "provider": "PROVIDER_UNSPECIFIED"
+              }
+            ],
+            "networking_mode": "VPC_NATIVE",
+            "node_config": [
+              {
+                "advanced_machine_features": [],
+                "boot_disk_kms_key": "",
+                "confidential_nodes": [],
+                "containerd_config": [],
+                "disk_size_gb": 30,
+                "disk_type": "pd-standard",
+                "effective_taints": [],
+                "enable_confidential_storage": false,
+                "ephemeral_storage_local_ssd_config": [],
+                "fast_socket": [],
+                "flex_start": false,
+                "gcfs_config": [],
+                "guest_accelerator": [],
+                "gvnic": [],
+                "host_maintenance_policy": [],
+                "image_type": "COS_CONTAINERD",
+                "kubelet_config": [
+                  {
+                    "allowed_unsafe_sysctls": [],
+                    "container_log_max_files": 0,
+                    "container_log_max_size": "",
+                    "cpu_cfs_quota": false,
+                    "cpu_cfs_quota_period": "",
+                    "cpu_manager_policy": "",
+                    "image_gc_high_threshold_percent": 0,
+                    "image_gc_low_threshold_percent": 0,
+                    "image_maximum_gc_age": "",
+                    "image_minimum_gc_age": "",
+                    "insecure_kubelet_readonly_port_enabled": "FALSE",
+                    "pod_pids_limit": 0
+                  }
+                ],
+                "labels": {},
+                "linux_node_config": [],
+                "local_nvme_ssd_block_config": [],
+                "local_ssd_count": 0,
+                "local_ssd_encryption_mode": "",
+                "logging_variant": "DEFAULT",
+                "machine_type": "e2-standard-2",
+                "max_run_duration": "",
+                "metadata": {
+                  "disable-legacy-endpoints": "true"
+                },
+                "min_cpu_platform": "",
+                "node_group": "",
+                "oauth_scopes": [
+                  "https://www.googleapis.com/auth/cloud-platform"
+                ],
+                "preemptible": false,
+                "reservation_affinity": [],
+                "resource_labels": {
+                  "goog-gke-node-pool-provisioning-model": "on-demand"
+                },
+                "resource_manager_tags": {},
+                "secondary_boot_disks": [],
+                "service_account": "default",
+                "shielded_instance_config": [
+                  {
+                    "enable_integrity_monitoring": true,
+                    "enable_secure_boot": false
+                  }
+                ],
+                "sole_tenant_config": [],
+                "spot": false,
+                "storage_pools": [],
+                "tags": [],
+                "taint": [],
+                "windows_node_config": [
+                  {
+                    "osversion": ""
+                  }
+                ],
+                "workload_metadata_config": []
+              }
+            ],
+            "node_locations": [
+              "us-central1-a",
+              "us-central1-b",
+              "us-central1-c"
+            ],
+            "node_pool": [
+              {
+                "autoscaling": [],
+                "initial_node_count": 2,
+                "instance_group_urls": [
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-c/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-7446df68-grp",
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-b/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-22aeb3e5-grp",
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-adf7aa86-grp"
+                ],
+                "managed_instance_group_urls": [
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-c/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-7446df68-grp",
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-b/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-22aeb3e5-grp",
+                  "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-adf7aa86-grp"
+                ],
+                "management": [
+                  {
+                    "auto_repair": true,
+                    "auto_upgrade": true
+                  }
+                ],
+                "max_pods_per_node": 110,
+                "name": "primary-node-pool",
+                "name_prefix": "",
+                "network_config": [
+                  {
+                    "additional_node_network_configs": [],
+                    "additional_pod_network_configs": [],
+                    "create_pod_range": false,
+                    "enable_private_nodes": false,
+                    "network_performance_config": [],
+                    "pod_cidr_overprovision_config": [],
+                    "pod_ipv4_cidr_block": "10.84.0.0/14",
+                    "pod_range": "gke-lovebridge-dr-cluster-pods-254e2d1e"
+                  }
+                ],
+                "node_config": [
+                  {
+                    "advanced_machine_features": [],
+                    "boot_disk_kms_key": "",
+                    "confidential_nodes": [],
+                    "containerd_config": [],
+                    "disk_size_gb": 30,
+                    "disk_type": "pd-standard",
+                    "effective_taints": [],
+                    "enable_confidential_storage": false,
+                    "ephemeral_storage_local_ssd_config": [],
+                    "fast_socket": [],
+                    "flex_start": false,
+                    "gcfs_config": [],
+                    "guest_accelerator": [],
+                    "gvnic": [],
+                    "host_maintenance_policy": [],
+                    "image_type": "COS_CONTAINERD",
+                    "kubelet_config": [
+                      {
+                        "allowed_unsafe_sysctls": [],
+                        "container_log_max_files": 0,
+                        "container_log_max_size": "",
+                        "cpu_cfs_quota": false,
+                        "cpu_cfs_quota_period": "",
+                        "cpu_manager_policy": "",
+                        "image_gc_high_threshold_percent": 0,
+                        "image_gc_low_threshold_percent": 0,
+                        "image_maximum_gc_age": "",
+                        "image_minimum_gc_age": "",
+                        "insecure_kubelet_readonly_port_enabled": "FALSE",
+                        "pod_pids_limit": 0
+                      }
+                    ],
+                    "labels": {},
+                    "linux_node_config": [],
+                    "local_nvme_ssd_block_config": [],
+                    "local_ssd_count": 0,
+                    "local_ssd_encryption_mode": "",
+                    "logging_variant": "DEFAULT",
+                    "machine_type": "e2-standard-2",
+                    "max_run_duration": "",
+                    "metadata": {
+                      "disable-legacy-endpoints": "true"
+                    },
+                    "min_cpu_platform": "",
+                    "node_group": "",
+                    "oauth_scopes": [
+                      "https://www.googleapis.com/auth/cloud-platform"
+                    ],
+                    "preemptible": false,
+                    "reservation_affinity": [],
+                    "resource_labels": {
+                      "goog-gke-node-pool-provisioning-model": "on-demand"
+                    },
+                    "resource_manager_tags": {},
+                    "secondary_boot_disks": [],
+                    "service_account": "default",
+                    "shielded_instance_config": [
+                      {
+                        "enable_integrity_monitoring": true,
+                        "enable_secure_boot": false
+                      }
+                    ],
+                    "sole_tenant_config": [],
+                    "spot": false,
+                    "storage_pools": [],
+                    "tags": [],
+                    "taint": [],
+                    "windows_node_config": [
+                      {
+                        "osversion": ""
+                      }
+                    ],
+                    "workload_metadata_config": []
+                  }
+                ],
+                "node_count": 2,
+                "node_locations": [
+                  "us-central1-a",
+                  "us-central1-b",
+                  "us-central1-c"
+                ],
+                "placement_policy": [],
+                "queued_provisioning": [],
+                "upgrade_settings": [
+                  {
+                    "blue_green_settings": [],
+                    "max_surge": 1,
+                    "max_unavailable": 0,
+                    "strategy": "SURGE"
+                  }
+                ],
+                "version": "1.32.4-gke.1415000"
+              }
+            ],
+            "node_pool_auto_config": [
+              {
+                "linux_node_config": [],
+                "network_tags": [],
+                "node_kubelet_config": [
+                  {
+                    "insecure_kubelet_readonly_port_enabled": "FALSE"
+                  }
+                ],
+                "resource_manager_tags": {}
+              }
+            ],
+            "node_pool_defaults": [
+              {
+                "node_config_defaults": [
+                  {
+                    "containerd_config": [],
+                    "gcfs_config": [],
+                    "insecure_kubelet_readonly_port_enabled": "FALSE",
+                    "logging_variant": "DEFAULT"
+                  }
+                ]
+              }
+            ],
+            "node_version": "1.32.4-gke.1415000",
+            "notification_config": [
+              {
+                "pubsub": [
+                  {
+                    "enabled": false,
+                    "filter": [],
+                    "topic": ""
+                  }
+                ]
+              }
+            ],
+            "operation": null,
+            "pod_autoscaling": [
+              {
+                "hpa_profile": "HPA_PROFILE_UNSPECIFIED"
+              }
+            ],
+            "private_cluster_config": [
+              {
+                "enable_private_endpoint": false,
+                "enable_private_nodes": false,
+                "master_global_access_config": [
+                  {
+                    "enabled": false
+                  }
+                ],
+                "master_ipv4_cidr_block": "",
+                "peering_name": "",
+                "private_endpoint": "10.0.0.3",
+                "private_endpoint_subnetwork": "",
+                "public_endpoint": "34.123.68.50"
+              }
+            ],
+            "private_ipv6_google_access": "",
+            "project": "direct-tribute-463400-f2",
+            "release_channel": [
+              {
+                "channel": "REGULAR"
+              }
+            ],
+            "remove_default_node_pool": true,
+            "resource_labels": {},
+            "resource_usage_export_config": [],
+            "secret_manager_config": [
+              {
+                "enabled": false
+              }
+            ],
+            "security_posture_config": [
+              {
+                "mode": "BASIC",
+                "vulnerability_mode": "VULNERABILITY_MODE_UNSPECIFIED"
+              }
+            ],
+            "self_link": "https://container.googleapis.com/v1/projects/direct-tribute-463400-f2/locations/us-central1/clusters/lovebridge-dr-cluster",
+            "service_external_ips_config": [
+              {
+                "enabled": false
+              }
+            ],
+            "services_ipv4_cidr": "34.118.224.0/20",
+            "subnetwork": "projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-subnet",
+            "terraform_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "timeouts": null,
+            "tpu_ipv4_cidr_block": "",
+            "user_managed_keys_config": [],
+            "vertical_pod_autoscaling": [],
+            "workload_identity_config": []
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "master_auth"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              },
+              {
+                "type": "get_attr",
+                "value": "client_key"
+              }
+            ]
+          ],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoyNDAwMDAwMDAwMDAwLCJkZWxldGUiOjI0MDAwMDAwMDAwMDAsInJlYWQiOjI0MDAwMDAwMDAwMDAsInVwZGF0ZSI6MzYwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMiJ9",
+          "dependencies": [
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_subnetwork.subnet"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.gke",
+      "mode": "managed",
+      "type": "google_container_node_pool",
+      "name": "primary_nodes",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "autoscaling": [],
+            "cluster": "lovebridge-dr-cluster",
+            "id": "projects/direct-tribute-463400-f2/locations/us-central1/clusters/lovebridge-dr-cluster/nodePools/primary-node-pool",
+            "initial_node_count": 2,
+            "instance_group_urls": [
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-c/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-7446df68-grp",
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-b/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-22aeb3e5-grp",
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/instanceGroupManagers/gke-lovebridge-dr-cl-primary-node-poo-adf7aa86-grp"
+            ],
+            "location": "us-central1",
+            "managed_instance_group_urls": [
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-c/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-7446df68-grp",
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-b/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-22aeb3e5-grp",
+              "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/zones/us-central1-a/instanceGroups/gke-lovebridge-dr-cl-primary-node-poo-adf7aa86-grp"
+            ],
+            "management": [
+              {
+                "auto_repair": true,
+                "auto_upgrade": true
+              }
+            ],
+            "max_pods_per_node": 110,
+            "name": "primary-node-pool",
+            "name_prefix": "",
+            "network_config": [
+              {
+                "additional_node_network_configs": [],
+                "additional_pod_network_configs": [],
+                "create_pod_range": false,
+                "enable_private_nodes": false,
+                "network_performance_config": [],
+                "pod_cidr_overprovision_config": [],
+                "pod_ipv4_cidr_block": "10.84.0.0/14",
+                "pod_range": "gke-lovebridge-dr-cluster-pods-254e2d1e"
+              }
+            ],
+            "node_config": [
+              {
+                "advanced_machine_features": [],
+                "boot_disk_kms_key": "",
+                "confidential_nodes": [],
+                "containerd_config": [],
+                "disk_size_gb": 30,
+                "disk_type": "pd-standard",
+                "effective_taints": [],
+                "enable_confidential_storage": false,
+                "ephemeral_storage_local_ssd_config": [],
+                "fast_socket": [],
+                "flex_start": false,
+                "gcfs_config": [],
+                "guest_accelerator": [],
+                "gvnic": [],
+                "host_maintenance_policy": [],
+                "image_type": "COS_CONTAINERD",
+                "kubelet_config": [
+                  {
+                    "allowed_unsafe_sysctls": [],
+                    "container_log_max_files": 0,
+                    "container_log_max_size": "",
+                    "cpu_cfs_quota": false,
+                    "cpu_cfs_quota_period": "",
+                    "cpu_manager_policy": "",
+                    "image_gc_high_threshold_percent": 0,
+                    "image_gc_low_threshold_percent": 0,
+                    "image_maximum_gc_age": "",
+                    "image_minimum_gc_age": "",
+                    "insecure_kubelet_readonly_port_enabled": "FALSE",
+                    "pod_pids_limit": 0
+                  }
+                ],
+                "labels": {},
+                "linux_node_config": [],
+                "local_nvme_ssd_block_config": [],
+                "local_ssd_count": 0,
+                "local_ssd_encryption_mode": "",
+                "logging_variant": "DEFAULT",
+                "machine_type": "e2-standard-2",
+                "max_run_duration": "",
+                "metadata": {
+                  "disable-legacy-endpoints": "true"
+                },
+                "min_cpu_platform": "",
+                "node_group": "",
+                "oauth_scopes": [
+                  "https://www.googleapis.com/auth/cloud-platform"
+                ],
+                "preemptible": false,
+                "reservation_affinity": [],
+                "resource_labels": {
+                  "goog-gke-node-pool-provisioning-model": "on-demand"
+                },
+                "resource_manager_tags": {},
+                "secondary_boot_disks": [],
+                "service_account": "default",
+                "shielded_instance_config": [
+                  {
+                    "enable_integrity_monitoring": true,
+                    "enable_secure_boot": false
+                  }
+                ],
+                "sole_tenant_config": [],
+                "spot": false,
+                "storage_pools": [],
+                "tags": [],
+                "taint": [],
+                "windows_node_config": [
+                  {
+                    "osversion": ""
+                  }
+                ],
+                "workload_metadata_config": []
+              }
+            ],
+            "node_count": 2,
+            "node_locations": [
+              "us-central1-a",
+              "us-central1-b",
+              "us-central1-c"
+            ],
+            "operation": null,
+            "placement_policy": [],
+            "project": "direct-tribute-463400-f2",
+            "queued_provisioning": [],
+            "timeouts": null,
+            "upgrade_settings": [
+              {
+                "blue_green_settings": [],
+                "max_surge": 1,
+                "max_unavailable": 0,
+                "strategy": "SURGE"
+              }
+            ],
+            "version": "1.32.4-gke.1415000"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInVwZGF0ZSI6MTgwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.gke.google_container_cluster.lovebridge_cluster",
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_subnetwork.subnet"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_firewall",
+      "name": "allow-ssh",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "allow": [
+              {
+                "ports": [
+                  "22"
+                ],
+                "protocol": "tcp"
+              }
+            ],
+            "creation_timestamp": "2025-07-02T17:50:14.702-07:00",
+            "deny": [],
+            "description": "",
+            "destination_ranges": [],
+            "direction": "INGRESS",
+            "disabled": false,
+            "enable_logging": null,
+            "id": "projects/direct-tribute-463400-f2/global/firewalls/allow-ssh",
+            "log_config": [],
+            "name": "allow-ssh",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "priority": 1000,
+            "project": "direct-tribute-463400-f2",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/firewalls/allow-ssh",
+            "source_ranges": [
+              "0.0.0.0/0"
+            ],
+            "source_service_accounts": [],
+            "source_tags": [],
+            "target_service_accounts": [],
+            "target_tags": [
+              "allow-ssh"
+            ],
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_firewall",
+      "name": "allow_http",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "allow": [
+              {
+                "ports": [
+                  "80",
+                  "8080"
+                ],
+                "protocol": "tcp"
+              }
+            ],
+            "creation_timestamp": "2025-07-02T17:50:15.162-07:00",
+            "deny": [],
+            "description": "",
+            "destination_ranges": [],
+            "direction": "INGRESS",
+            "disabled": false,
+            "enable_logging": null,
+            "id": "projects/direct-tribute-463400-f2/global/firewalls/allow-http",
+            "log_config": [],
+            "name": "allow-http",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "priority": 1000,
+            "project": "direct-tribute-463400-f2",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/firewalls/allow-http",
+            "source_ranges": [
+              "0.0.0.0/0"
+            ],
+            "source_service_accounts": [],
+            "source_tags": [],
+            "target_service_accounts": [],
+            "target_tags": [
+              "allow-http"
+            ],
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_global_address",
+      "name": "private_ip_range",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "10.185.0.0",
+            "address_type": "INTERNAL",
+            "creation_timestamp": "2025-07-02T17:50:14.656-07:00",
+            "description": "",
+            "effective_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "id": "projects/direct-tribute-463400-f2/global/addresses/sql-private-range",
+            "ip_version": "",
+            "label_fingerprint": "vezUS-42LLM=",
+            "labels": {},
+            "name": "sql-private-range",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "prefix_length": 16,
+            "project": "direct-tribute-463400-f2",
+            "purpose": "VPC_PEERING",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/addresses/sql-private-range",
+            "terraform_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_network",
+      "name": "vpc",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "auto_create_subnetworks": false,
+            "bgp_always_compare_med": false,
+            "bgp_best_path_selection_mode": "LEGACY",
+            "bgp_inter_region_cost": "",
+            "delete_default_routes_on_create": false,
+            "description": "",
+            "enable_ula_internal_ipv6": false,
+            "gateway_ipv4": "",
+            "id": "projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "internal_ipv6_range": "",
+            "mtu": 0,
+            "name": "dr-vpc",
+            "network_firewall_policy_enforcement_order": "AFTER_CLASSIC_FIREWALL",
+            "network_id": "8429814005203758400",
+            "network_profile": "",
+            "numeric_id": "8429814005203758400",
+            "project": "direct-tribute-463400-f2",
+            "routing_mode": "REGIONAL",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_route",
+      "name": "allow_internet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "as_paths": [],
+            "creation_timestamp": "2025-07-02T17:50:14.683-07:00",
+            "description": "",
+            "dest_range": "0.0.0.0/0",
+            "id": "projects/direct-tribute-463400-f2/global/routes/dr-vpc-allow-internet",
+            "name": "dr-vpc-allow-internet",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "next_hop_gateway": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/gateways/default-internet-gateway",
+            "next_hop_hub": "",
+            "next_hop_ilb": "",
+            "next_hop_instance": "",
+            "next_hop_instance_zone": null,
+            "next_hop_inter_region_cost": "",
+            "next_hop_ip": "",
+            "next_hop_med": "",
+            "next_hop_network": "",
+            "next_hop_origin": "",
+            "next_hop_peering": "",
+            "next_hop_vpn_tunnel": "",
+            "priority": 1000,
+            "project": "direct-tribute-463400-f2",
+            "route_status": "",
+            "route_type": "",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/routes/dr-vpc-allow-internet",
+            "tags": [],
+            "timeouts": null,
+            "warnings": []
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_router",
+      "name": "router",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bgp": [],
+            "creation_timestamp": "2025-07-02T17:50:15.221-07:00",
+            "description": "",
+            "encrypted_interconnect_router": false,
+            "id": "projects/direct-tribute-463400-f2/regions/us-central1/routers/dr-vpc-router",
+            "md5_authentication_keys": [],
+            "name": "dr-vpc-router",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "project": "direct-tribute-463400-f2",
+            "region": "us-central1",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/routers/dr-vpc-router",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_router_nat",
+      "name": "nat",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "auto_network_tier": null,
+            "drain_nat_ips": [],
+            "enable_dynamic_port_allocation": false,
+            "enable_endpoint_independent_mapping": false,
+            "endpoint_types": [
+              "ENDPOINT_TYPE_VM"
+            ],
+            "icmp_idle_timeout_sec": 30,
+            "id": "direct-tribute-463400-f2/us-central1/dr-vpc-router/dr-vpc-nat",
+            "initial_nat_ips": null,
+            "log_config": [],
+            "max_ports_per_vm": 0,
+            "min_ports_per_vm": 0,
+            "name": "dr-vpc-nat",
+            "nat64_subnetwork": [],
+            "nat_ip_allocate_option": "AUTO_ONLY",
+            "nat_ips": [],
+            "project": "direct-tribute-463400-f2",
+            "region": "us-central1",
+            "router": "dr-vpc-router",
+            "rules": [],
+            "source_subnetwork_ip_ranges_to_nat": "ALL_SUBNETWORKS_ALL_IP_RANGES",
+            "source_subnetwork_ip_ranges_to_nat64": "",
+            "subnetwork": [],
+            "tcp_established_idle_timeout_sec": 1200,
+            "tcp_time_wait_timeout_sec": 120,
+            "tcp_transitory_idle_timeout_sec": 30,
+            "timeouts": null,
+            "type": "PUBLIC",
+            "udp_idle_timeout_sec": 30
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_router.router"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_subnetwork",
+      "name": "private_subnet_db",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "creation_timestamp": "2025-07-02T17:50:15.500-07:00",
+            "description": "",
+            "enable_flow_logs": false,
+            "external_ipv6_prefix": "",
+            "fingerprint": null,
+            "gateway_address": "10.0.2.1",
+            "id": "projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-vpc-private-db",
+            "internal_ipv6_prefix": "",
+            "ip_cidr_range": "10.0.2.0/24",
+            "ip_collection": null,
+            "ipv6_access_type": "",
+            "ipv6_cidr_range": "",
+            "ipv6_gce_endpoint": "",
+            "log_config": [],
+            "name": "dr-vpc-private-db",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "private_ip_google_access": true,
+            "private_ipv6_google_access": "DISABLE_GOOGLE_ACCESS",
+            "project": "direct-tribute-463400-f2",
+            "purpose": "PRIVATE",
+            "region": "us-central1",
+            "reserved_internal_range": "",
+            "role": "",
+            "secondary_ip_range": [],
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-vpc-private-db",
+            "send_secondary_ip_range_if_empty": null,
+            "stack_type": "IPV4_ONLY",
+            "state": "",
+            "subnetwork_id": 905077327481302312,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_subnetwork",
+      "name": "private_subnet_kuber",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "creation_timestamp": "2025-07-02T17:50:15.411-07:00",
+            "description": "",
+            "enable_flow_logs": false,
+            "external_ipv6_prefix": "",
+            "fingerprint": null,
+            "gateway_address": "10.0.3.1",
+            "id": "projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-vpc-private-b",
+            "internal_ipv6_prefix": "",
+            "ip_cidr_range": "10.0.3.0/24",
+            "ip_collection": null,
+            "ipv6_access_type": "",
+            "ipv6_cidr_range": "",
+            "ipv6_gce_endpoint": "",
+            "log_config": [],
+            "name": "dr-vpc-private-b",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "private_ip_google_access": true,
+            "private_ipv6_google_access": "DISABLE_GOOGLE_ACCESS",
+            "project": "direct-tribute-463400-f2",
+            "purpose": "PRIVATE",
+            "region": "us-central1",
+            "reserved_internal_range": "",
+            "role": "",
+            "secondary_ip_range": [],
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-vpc-private-b",
+            "send_secondary_ip_range_if_empty": null,
+            "stack_type": "IPV4_ONLY",
+            "state": "",
+            "subnetwork_id": 1222218107754933544,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_compute_subnetwork",
+      "name": "subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "creation_timestamp": "2025-07-02T17:50:15.574-07:00",
+            "description": "",
+            "enable_flow_logs": false,
+            "external_ipv6_prefix": "",
+            "fingerprint": null,
+            "gateway_address": "10.0.0.1",
+            "id": "projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-subnet",
+            "internal_ipv6_prefix": "",
+            "ip_cidr_range": "10.0.0.0/24",
+            "ip_collection": null,
+            "ipv6_access_type": "",
+            "ipv6_cidr_range": "",
+            "ipv6_gce_endpoint": "",
+            "log_config": [],
+            "name": "dr-subnet",
+            "network": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "private_ip_google_access": true,
+            "private_ipv6_google_access": "DISABLE_GOOGLE_ACCESS",
+            "project": "direct-tribute-463400-f2",
+            "purpose": "PRIVATE",
+            "region": "us-central1",
+            "reserved_internal_range": "",
+            "role": "",
+            "secondary_ip_range": [
+              {
+                "ip_cidr_range": "10.84.0.0/14",
+                "range_name": "gke-lovebridge-dr-cluster-pods-254e2d1e",
+                "reserved_internal_range": "https://networkconnectivity.googleapis.com/v1/projects/direct-tribute-463400-f2/locations/global/internalRanges/gke-lovebridge-dr-cluster-pods-254e2d1e"
+              }
+            ],
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/subnetworks/dr-subnet",
+            "send_secondary_ip_range_if_empty": null,
+            "stack_type": "IPV4_ONLY",
+            "state": "",
+            "subnetwork_id": 8311386101697244456,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_network.vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "google_service_networking_connection",
+      "name": "private_vpc_connection",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "deletion_policy": null,
+            "id": "projects%2Fdirect-tribute-463400-f2%2Fglobal%2Fnetworks%2Fdr-vpc:servicenetworking.googleapis.com",
+            "network": "projects/direct-tribute-463400-f2/global/networks/dr-vpc",
+            "peering": "servicenetworking-googleapis-com",
+            "reserved_peering_ranges": [
+              "sql-private-range"
+            ],
+            "service": "servicenetworking.googleapis.com",
+            "timeouts": null,
+            "update_on_creation_fail": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwLCJ1cGRhdGUiOjYwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.google_compute_global_address.private_ip_range",
+            "module.network.google_compute_network.vpc",
+            "module.network.google_compute_subnetwork.private_subnet_db",
+            "module.network.google_compute_subnetwork.private_subnet_kuber"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.static_ip",
+      "mode": "managed",
+      "type": "google_compute_address",
+      "name": "gke_ingress_ip",
+      "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "104.197.9.177",
+            "address_type": "EXTERNAL",
+            "creation_timestamp": "2025-07-02T17:49:52.078-07:00",
+            "description": "",
+            "effective_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "id": "projects/direct-tribute-463400-f2/regions/us-central1/addresses/gke-ingress-ip",
+            "ip_version": "",
+            "ipv6_endpoint_type": "",
+            "label_fingerprint": "vezUS-42LLM=",
+            "labels": {},
+            "name": "gke-ingress-ip",
+            "network": "",
+            "network_tier": "PREMIUM",
+            "prefix_length": 0,
+            "project": "direct-tribute-463400-f2",
+            "purpose": "",
+            "region": "us-central1",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/direct-tribute-463400-f2/regions/us-central1/addresses/gke-ingress-ip",
+            "subnetwork": "",
+            "terraform_labels": {
+              "goog-terraform-provisioned": "true"
+            },
+            "timeouts": null,
+            "users": []
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

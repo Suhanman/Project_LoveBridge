@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gcp-monitoring-exporter
+  namespace: default
+spec:
+  selector:
+    app: gcp-monitoring-exporter
+  ports:
+    - protocol: TCP
+      port: 9255
+      targetPort: 9255

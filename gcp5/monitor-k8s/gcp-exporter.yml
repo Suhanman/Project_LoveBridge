@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: gcp-monitoring-exporter-sa
+  namespace: default
+  annotations:
+    iam.gke.io/gcp-service-account: gcp-monitoring-exporter@direct-tribute-463400-f2.iam.gserviceaccount.com
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gcp-monitoring-exporter
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gcp-monitoring-exporter
+  template:
+    metadata:
+      labels:
+        app: gcp-monitoring-exporter
+    spec:
+      serviceAccountName: gcp-monitoring-exporter-sa
+      containers:
+        - name: exporter
+          image: prometheuscommunity/stackdriver-exporter
+          args:
+          - "--google.project-id=direct-tribute-463400-f2"       
+          - "--monitoring.metrics-type-prefixes=container.googleapis.com,compute.googleapis.com"
+          ports:
+            - containerPort: 9255
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gcp-monitoring-exporter
+  namespace: default
+spec:
+  selector:
+    app: gcp-monitoring-exporter
+  ports:
+    - protocol: TCP
+      port: 9255
+      targetPort: 9255

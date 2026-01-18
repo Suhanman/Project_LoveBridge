@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grafana-ingress
+  namespace: monitoring
+  annotations:
+    kubernetes.io/ingress.class: gce  # GKE에서는 기본 ingress class
+    networking.gke.io/managed-certificates: grafana-managed-cert  # GCP용 인증서 자원
+spec:
+  rules:
+  - host: grafana.lovebridge.click
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: grafana
+            port:
+              number: 3000

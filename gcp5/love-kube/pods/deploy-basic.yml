@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lovebridge-basic
+  labels:
+    app: lovebridge
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lovebridge
+  template:
+    metadata:
+      labels:
+        app: lovebridge
+    spec:
+      containers:
+        - name: lovebridge
+          image: us-central1-docker.pkg.dev/direct-tribute-463400-f2/docker/lastimage
+          env:
+            - name: CLOUD_AWS_CREDENTIALS_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: aws-credentials
+                  key: access-key
+            - name: CLOUD_AWS_CREDENTIALS_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: aws-credentials
+                  key: secret-key
+            - name: CLOUD_AWS_REGION_STATIC
+              value: ap-northeast-2
+            - name: CLOUD_AWS_S3_BUCKET
+              value: lovebridgeimage
+
+      imagePullSecrets:
+        - name: ecr-secret
+
+        

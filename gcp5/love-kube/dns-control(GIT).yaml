@@ -1,0 +1,12 @@
+# values.yaml (Git에 넣을 파일)
+provider: aws
+aws:
+  region: ap-northeast-2
+  zoneType: public
+txtOwnerId: external-dns
+policy: upsert-only
+domainFilters:
+  - lovebridge.click
+serviceAccount:
+  create: false
+  name: external-dns

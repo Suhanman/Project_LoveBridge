@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: gcp-web-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: "gce"  # GCP Ingress Controller
+    networking.gke.io/managed-certificates: web-cert
+    kubernetes.io/ingress.global-static-ip-name: web-static-ip
+    external-dns.alpha.kubernetes.io/hostname: gcp.lovebridge.click  # DR용 호스트네임
+    ingress.kubernetes.io/health-check-path: /health
+spec:
+  rules:
+    - host: 
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: lovebridge-service  # 실제 서비스 이름으로 교체
+                port:
+                  number: 80
